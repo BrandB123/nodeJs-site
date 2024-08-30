@@ -1,3 +1,6 @@
+const http = require('http');
+const fs = require('fs');
+
 http.createServer(function (req, res) {
   const q = req.url
   let fileName = "";

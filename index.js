@@ -9,8 +9,8 @@ http.createServer(function (req, res) {
     fileName = 'index.html'
   } else if (q === '/about'){
     fileName = 'about.html'
-  } else if (q === '/contact-us'){
-    fileName = 'contact-us.html'
+  } else if (q === '/contact-me'){
+    fileName = 'contact-me.html'
   } else {
     fileName = '404.html'
   }
